@@ -1,6 +1,20 @@
-# نمونه کد سی‌شارپ فینوپال
+# نمونه کد .NET فینوپال
 
-کتابخانه درگاه پرداخت فینوپال برای .NET 6 و بالاتر. مبلغ‌ها به **ریال** هستند. حداقل ۱۰۰۰ ریال.
+کتابخانه درگاه پرداخت فینوپال برای .NET 8. شناسه بسته NuGet برابر `FinoPal` است. مبلغ‌ها به **ریال** هستند. حداقل ۱۰۰۰ ریال.
+
+## نصب
+
+در ویژوال استودیو از Tools، گزینه NuGet Package Manager و سپس Manage NuGet Packages for Solution را باز کنید و `FinoPal` را جستجو کنید.
+
+```bash
+dotnet add package FinoPal
+```
+
+```xml
+<PackageReference Include="FinoPal" Version="1.0.0" />
+```
+
+تا وقتی بسته روی [nuget.org](https://www.nuget.org/packages/FinoPal) منتشر نشده، پروژه `FinoPal.csproj` همین مخزن را به سولوشن اضافه کنید.
 
 ## پیکربندی
 
